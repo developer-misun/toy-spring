@@ -1,13 +1,14 @@
-package misun.toy.toyspring;
+package misun.toy;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ToySpringApplication {
+public class ToyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ToySpringApplication.class, args);
+		SpringApplication.run(ToyApplication.class, args);
 	}
 
 }
